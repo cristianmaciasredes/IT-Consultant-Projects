@@ -1,3 +1,8 @@
+Here is the updated .md file. I have added a new dedicated section called "Process Portfolio (Click to View)" just below your introduction categories.
+
+This creates a clean, organized list where you can easily drop new links as you upload more documents to your repository.
+
+Markdown
 # Professional Portfolio & Process Documentation
 
 Welcome to my GitHub repository. This space serves as a portfolio of my methodologies, process frameworks, and documentation practices within IT Service Management (ITSM), Knowledge Management, and Technical Writing. 
@@ -18,4 +23,9 @@ The purpose of this repository is to showcase the structural approach and operat
 * **Technical Documentation:** Standardized technical writing templates and process flows designed for maximum clarity, bridging the gap between highly technical teams and end-users.
 * **Service Management Optimization:** Process flows and documentation emphasizing continuous improvement, root cause analysis, and efficient service delivery.
 
-By adapting real-world challenges into standard, sanitized frameworks, this repository provides a clear view of my technical and organizational skill set while maintaining the highest standard of professional discretion and data security.
+## Process Portfolio (Click to View)
+
+Below is a categorized list of my documented workflows, frameworks, and methodologies:
+
+**IT Service Management (ITSM & ITIL)**
+* [Three Strike Rule - Service Desk Escalation Process](three-strike-rules.html)
