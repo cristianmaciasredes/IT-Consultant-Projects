@@ -23,4 +23,5 @@ The purpose of this repository is to showcase the structural approach and operat
 Below is a categorized list of my documented workflows, frameworks, and methodologies:
 
 **IT Service Management (ITSM & ITIL)**
-* [Three Strike Rule - Service Desk Escalation Process](three-strike-rules.html)
+* [Three Strike Rule - Service Desk Escalation Process](ITSM-Processes/three-strike-rules.html)
+  * [Three Strike Rule - Documentation](ITSM-Processes/three-strike-rules-documentation.md)
