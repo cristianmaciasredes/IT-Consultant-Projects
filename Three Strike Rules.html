@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+    /* Centralized Styling for the Knowledge Base Article */
+    .kb-article {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 10pt;
+        line-height: 1.5;
+        color: #333;
+    }
+    
+    .kb-article h2, .kb-article h3 {
+        font-family: Verdana, sans-serif;
+    }
+
+    /* Semantic Color Classes */
+    .text-red { color: rgb(224, 62, 45); }
+    .text-dark-red { color: #c0392b; }
+    .text-green { color: rgb(7, 188, 82); }
+    .text-purple { color: rgb(129, 11, 186); }
+    .text-blue { color: rgb(0, 102, 204); }
+    .text-white { color: rgb(255, 255, 255); }
+
+    /* Highlighted Header Backgrounds */
+    .highlight-blue {
+        background-color: #2e81ff;
+        padding: 10px;
+        border: 1px solid #faebcc;
+    }
+    .highlight-red {
+        background-color: #f2dede;
+        padding: 10px;
+        border: 1px solid #ebccd1;
+    }
+
+    /* List Formatting */
+    .kb-article ul, .kb-article ol {
+        list-style-position: inside;
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    /* Watermark Styling */ 
+    .portfolio-watermark {
+    text-align: center;
+    font-size: 8pt;
+    color: #777; /* A subtle grey color so it isn't distracting */
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd; /* Adds a clean line above the text */
+}
+    .kb-article li {
+        margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="kb-article">
+    <p>This KB outlines the handling of incidents requiring additional information from users and ensures accurate use of the <span class="text-blue">Your ticketing tool status.</p>
+    <p> It balances the need to provide excellent customer service with the necessity of maintaining an efficient, uncluttered IT environment.</p>
+    <p><strong>It aligns with the <span class="text-blue">Auto-Closure rule in your ticketing platform</span> .</strong></p>
+    <p>Incident status may change from <em>New</em> or <em>In Progress</em> to <em><span class="text-blue">Your awaiting status</span></em> when:</p>
+    <ul>
+        <li>More information or troubleshooting is needed, and the user is unreachable.</li>
+        <li>A new incident lacks sufficient information to be routed or resolved.</li>
+        <li>The user cannot provide required information during a call.</li>
+        <li>The user is Out Of Office (OOO).</li>
+    </ul>
+    
+    <hr>
+
+    <h3 class="text-dark-red">Exceptions (Cases Exempt from This Process)</h3>
+
+    <h2><strong>1. Password Reset <span class="text-blue">If you need any type of documentation/badge/ID</span></strong></h2>
+    <ul>
+        <li><strong>Status:</strong> Set to On Hold for only <span class="text-blue">Your desired amount of time</span></strong> using <span class="text-blue">your desired template.</span></li>
+        <li><strong>Action:</strong> Notify the user that the ticket will auto-resolve after <span class="text-blue">Your desired amount of time.</span></li>
+        <li><strong>Tagging:</strong> Add any <span class="text-blue">TAG or Template</span>
+    </ul>
+
+    <h2><strong>2. Vacation Period</strong></h2>
+    <ul>
+        <li><strong>Status:</strong> Set to On Hold with the reason "Vacation Period".</li>
+        <li><strong>Effect:</strong> <span class="text-blue">This removes the ticket from your auto-close system (Align it first).</span></li>
+        <li><strong>Resolution:</strong> On the defined return date, close the incident using <span class="text-blue">your desired template.</span></li>
+    </ul>
+
+    <h2><strong>3. Out of business hours (Including Bank Holidays)</strong></h2>
+    <p>The three strike rule would not be applicable out of <strong>business hours</strong> (<span class="text-blue">your business hours) unless the requestor is <strong class="text-red">actively</strong> contacting us. (Update of the ticket)</p>
+
+    <h2><strong>4. Information provided must be valid.</strong></h2>
+    <p>The user must provide a response that allows the ticket to be progressed immediately.</p>
+    <ul>
+        <li><strong class="text-green">Correct:</strong> The user engages with the inquiry.</li>
+        <li>
+            <strong class="text-red">Incorrect:</strong> The user requests a delay (e.g., "call back later").<br>
+            
+            <p><strong class="text-red">User may add an Additional Comment to the ticket; such action changes the status to In Progress. A reset of the strikes should be done.</strong><br><br></p>
+            
+            <strong>Normal Interaction:</strong>
+        </li>
+        <li>EN: We tried to reach you today at [TIME] on the following number(s): [USER TEL] without success.</li>
+   
+    <p><strong class="text-red">If a reset of strikes is applied, the short description needs to be updated accordingly.</strong></p>
+
+    <h2>Resolution</h2>
+    <p>Follow the steps below to manage the "Three Strike" lifecycle. Ensure you use the correct template for each stage.</p>
+    <p class="text-red"><strong>Primary contact efforts should focus on mobile devices.</strong></p>
+
+    <h2 class="highlight-blue"><strong class="text-white">Day 1: 1st Strike (Initial Contact)</strong></h2>
+    <p>Trigger: Missing info or need to access user’s PC.</p>
+    <ol>
+        <li><strong>Phone Contact:</strong> Call the user (fixed and/or mobile).</li>
+        <li><strong>Voicemail:</strong> If there is no answer, leave a voicemail.</li>
+        <li><strong>Keep Status and Update short description:</strong> Keep state to <span class="text-blue">Your desired template</span>, assign to yourself, include your <span class="text-blue">identification tag.</span></li>
+    </ol>
+    <p><strong>Template:</strong> <strong class="text-purple">Your desired template.</strong><br>
+    <strong>Assignment group:</strong> <strong class="text-purple">Your assignment group.</strong></p>
+   
+    <h2 class="highlight-blue"><strong class="text-white">Day 2 (1+1) Business Days:2nd Strike</strong></h2>
+    <p>Trigger: No answer and no appointment booked.</p>
+    <ol>
+        <li><strong>Check Appointments:</strong> Verify if an appointment has been booked in the system.</li>
+        <li><strong>Phone Contact:</strong> Repeat contact via phone (fixed and/or mobile).</li>
+        <li><strong>Voicemail:</strong> If there is no answer, leave a voicemail.</li>
+        <li><strong>Keep Status and Update short description:</strong> Keep state to <span class="text-blue">Your desired template</span>, assign to yourself, include your <span class="text-blue">identification tag.</span></li>
+    </ol>
+    <p><strong>Template:</strong> <strong class="text-purple">Your desired template.</strong><br>
+    <strong>Assignment group:</strong> <strong class="text-purple">Your assignment group.</strong></p>
+    <ul>
+        <li><em>Note: This template adds a work note informing it is the 2nd strike.</em></li>
+    </ul>
+
+    <h2 class="highlight-blue"><strong class="text-white">Day 3 (2+1) Business Days: 3rd Strike</strong></h2>
+    <p>Trigger: No answer and no appointment booked.</p>
+    <p>Information provided:</p>
+    <ol>
+        <li><strong>Check Appointments:</strong> Verify if an appointment has been booked in the system.</li>
+        <li><strong>Phone Contact:</strong> Contact one last time via phone.</li>
+        <li><strong>Voicemail:</strong> If there is no answer, leave a voicemail.</li>
+        <li><strong>Keep Status and Update short description:</strong> Keep state to <span class="text-blue">Your desired template</span>, assign to yourself, include your <span class="text-blue">identification tag.</span></li>
+    </ol>
+    <p><strong>Template:</strong> <strong class="text-purple">Your desired template.</strong><br>
+    <strong>Assignment group:</strong> <strong class="text-purple">Your assignment group.</strong></p>
+    <ul>
+        <li><em>Note: This template adds a work note informing it is the 3rd strike.</em></li>
+    </ul>
+
+    <h2 class="highlight-red">Day X (Calendar Days): Auto Resolved <span class="text-blue">in your ticketing tool</span></h2>
+    <p>If no response is received by the X calendar day, the system will automatically resolve the ticket.</p>
+    <p>No further agent action is required.</p>
+</div>
+
+<div class="portfolio-watermark">
+    &copy; 2026 Cristian Macías. This document is part of a professional portfolio. 
+    Not licensed for public reuse or distribution without explicit permission.
+</div>
+
+</body>
+</html>
