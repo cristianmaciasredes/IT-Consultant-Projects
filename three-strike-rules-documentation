@@ -1,0 +1,29 @@
+# ITSM Process Summary: The Three Strike Rule
+
+## 🎯 Purpose
+The Three Strike Rule is a standardized operational framework designed to manage IT service tickets that require additional user information. It strikes a necessary balance between delivering excellent customer service and maintaining an efficient, uncluttered IT environment. By formally managing the "Awaiting Caller" or "On Hold" lifecycle, this process protects Service Level Agreements (SLAs), prevents queue bloat, and establishes clear, consistent expectations for end-users.
+
+## 🧠 Logical Thinking & Workflow Steps
+
+### 1. Handling Exceptions (The Guardrails)
+Before applying strikes, the process intelligently filters out edge cases where standard rules should not apply. This prevents automated systems from negatively impacting the user experience:
+* **Compliance & Security:** Password resets requiring physical ID/badge verification follow a strict, expedited timeline rather than the standard three days.
+* **User Unavailability:** Known vacation periods pause the auto-close mechanism, ensuring tickets are not prematurely closed while a user is officially out of the office.
+* **Business Hours:** Strikes are not counted outside of standard business hours or on bank holidays, ensuring contact attempts are fair and actionable.
+* **Valid Engagement:** If a user answers but requests a delay (e.g., "call back later"), strikes are reset. The process adapts to genuine human interaction rather than rigidly penalizing the user.
+
+### 2. The Escalation Lifecycle (The Strikes)
+The core logic ensures consistent, documented, and fair contact attempts across the Service Desk:
+* **Strike 1 (Day 1 - Initial Contact):** Triggered by missing information. The agent attempts contact (prioritizing mobile), leaves a voicemail, and applies the first standardized template. This establishes the baseline and shifts the ticket status.
+* **Strike 2 (Day 2 - Follow-up):** The agent verifies no appointments have been booked by the user to avoid redundant calls, attempts contact again, and logs the second strike. This demonstrates sustained support effort.
+* **Strike 3 (Day 3 - Final Attempt):** The definitive final manual action. The agent checks for appointments, makes a final call, leaves a concluding voicemail, and logs the third strike. The agent's active responsibility for chasing the user ends here.
+
+### 3. Automated Resolution (The Clean-up)
+* **Day X (Auto-Resolve):** If no valid response is received after a defined calendar period, the ITSM tool automatically resolves the ticket. This self-cleaning mechanism eliminates the need for agents to manually hunt down and close abandoned tickets.
+
+## 🚀 Best Approach & Implementation Strategy
+
+* **System Automation:** Rely heavily on the ITSM platform's automated capabilities (like system-driven auto-closure) to handle the final resolution, freeing up mental bandwidth and time for the agents.
+* **Standardized Templating:** Enforce the use of exact status updates, predefined assignment groups, and macro communication templates. This guarantees a uniform user experience globally and creates a clear audit trail.
+* **Mobile-First Contact:** Prioritize mobile devices over fixed landlines, reflecting modern hybrid working habits and drastically increasing the likelihood of successful first-contact resolution.
+* **Clear Queue Visibility:** Use precise tagging and short description updates (e.g., updating the title to reflect the current strike) so that queue managers and other agents can instantly understand a ticket's state at a glance.
