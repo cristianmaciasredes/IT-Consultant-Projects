@@ -1,8 +1,3 @@
-Here is the updated .md file. I have added a new dedicated section called "Process Portfolio (Click to View)" just below your introduction categories.
-
-This creates a clean, organized list where you can easily drop new links as you upload more documents to your repository.
-
-Markdown
 # Professional Portfolio & Process Documentation
 
 Welcome to my GitHub repository. This space serves as a portfolio of my methodologies, process frameworks, and documentation practices within IT Service Management (ITSM), Knowledge Management, and Technical Writing. 
