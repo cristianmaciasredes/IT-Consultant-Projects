@@ -1,9 +1,9 @@
 # ITSM Process Summary: The Three Strike Rule
 
-## 🎯 Purpose
+## Purpose
 The Three Strike Rule is a standardized operational framework designed to manage IT service tickets that require additional user information. It strikes a necessary balance between delivering excellent customer service and maintaining an efficient, uncluttered IT environment. By formally managing the "Awaiting Caller" or "On Hold" lifecycle, this process protects Service Level Agreements (SLAs), prevents queue bloat, and establishes clear, consistent expectations for end-users.
 
-## 🧠 Logical Thinking & Workflow Steps
+## Logical Thinking & Workflow Steps
 
 ### 1. Handling Exceptions (The Guardrails)
 Before applying strikes, the process intelligently filters out edge cases where standard rules should not apply. This prevents automated systems from negatively impacting the user experience:
@@ -21,7 +21,7 @@ The core logic ensures consistent, documented, and fair contact attempts across 
 ### 3. Automated Resolution (The Clean-up)
 * **Day X (Auto-Resolve):** If no valid response is received after a defined calendar period, the ITSM tool automatically resolves the ticket. This self-cleaning mechanism eliminates the need for agents to manually hunt down and close abandoned tickets.
 
-## 🚀 Best Approach & Implementation Strategy
+## Best Approach & Implementation Strategy
 
 * **System Automation:** Rely heavily on the ITSM platform's automated capabilities (like system-driven auto-closure) to handle the final resolution, freeing up mental bandwidth and time for the agents.
 * **Standardized Templating:** Enforce the use of exact status updates, predefined assignment groups, and macro communication templates. This guarantees a uniform user experience globally and creates a clear audit trail.
