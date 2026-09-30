@@ -25,8 +25,8 @@ A specialized prompt architecture is utilized to act as a technical writing assi
 
 To illustrate the effectiveness of this methodology, below is a comparison of a standard legacy article versus its AI-optimized counterpart.
 
-*   **[Before Optimization (Legacy Article):](./articulo_original.md)** Dense, unstructured text, heavy reliance on inline images without alt-text, poor readability.
-*   **[After Optimization (Now Assist-Ready):](./articulo_optimizado.md)** Structured HTML modules, actionable steps `<ol>`, synthesized media descriptions, and clean metadata.
+*   **[Before Optimization (Legacy Article):](./legacy_article.md)** Dense, unstructured text, heavy reliance on inline images without alt-text, poor readability.
+*   **[After Optimization (Now Assist-Ready):](./optimized_article.md)** Structured HTML modules, actionable steps `<ol>`, synthesized media descriptions, and clean metadata.
 
 ---
 *Disclaimer: All data in these examples has been fully anonymized and generalized to protect confidentiality. The methodology reflects industry best practices.*
