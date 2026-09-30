@@ -58,3 +58,17 @@ Analyze the provided structured input and rewrite it according to the KCS struct
 1. Provide the newly optimized Title. 
 2. Provide the four KCS HTML code blocks clearly labeled, each inside its own Markdown code fence.
 3. Provide a comma-separated list of optimized Meta Data / Search Keywords.
+
+
+## User Input Template
+
+Copy and paste the following template into the GEM along with your legacy article content to begin the optimization process:
+
+Please rewrite this KB for Now Assist:
+
+Existing MetaData: 
+Existing - Short Description:
+Existing HTML - Case Description:
+Existing HTML - Environment:
+Existing HTML - Cause:
+Existing HTML - Resolution:
