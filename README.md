@@ -25,3 +25,8 @@ Below is a categorized list of my documented workflows, frameworks, and methodol
 **IT Service Management (ITSM & ITIL)**
 * [Three Strike Rule - Service Desk Escalation Process](ITSM-Processes/three-strike-rules.html)
   * [Three Strike Rule - Documentation](ITSM-Processes/three-strike-rules-documentation.md)
+**Knowledge Management & AI Integration**
+* [AI-Driven Knowledge Base Optimization (Case Study)](Knowledge-Management-AI/README.md)
+  * [GEM Prompt Instructions](Knowledge-Management-AI/gem_instructions.md)
+  * [Legacy Article (Raw Input)](Knowledge-Management-AI/legacy_article.md)
+  * [Optimized Article (Now Assist-Ready)](Knowledge-Management-AI/optimized_article.md)
