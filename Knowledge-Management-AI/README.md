@@ -28,5 +28,8 @@ To illustrate the effectiveness of this methodology, below is a comparison of a 
 *   **[Before Optimization (Legacy Article):](./legacy_article.md)** Dense, unstructured text, heavy reliance on inline images without alt-text, poor readability.
 *   **[After Optimization (Now Assist-Ready):](./optimized_article.md)** Structured HTML modules, actionable steps `<ol>`, synthesized media descriptions, and clean metadata.
 
+## GUIDE available at youtube in spanish language
+[Youtube](https://www.youtube.com/watch?v=sQI6vTbD6Mc)
+
 ---
 *Disclaimer: All data in these examples has been fully anonymized and generalized to protect confidentiality. The methodology reflects industry best practices.*
