@@ -56,3 +56,4 @@ Microsoft Outlook, Microsoft Teams, Out of Office, OOO, automatic replies, auto-
     <li>Navigate to the automatic replies section.</li>
     <li>Type your automated message, set your dates, and save your changes.</li>
 </ol>
+```
