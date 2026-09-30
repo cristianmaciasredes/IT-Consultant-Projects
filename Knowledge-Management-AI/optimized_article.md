@@ -15,7 +15,7 @@ Microsoft Outlook, Microsoft Teams, Out of Office, OOO, automatic replies, auto-
 ### Block 1 - Case Description
 ```html
 <p>This article provides instructions for users who need to set up an Out of Office (automatic reply) message when going on holiday or leaving the office.</p>
-
+```
 ### Block 2 - Environment
 ```html
 <ul>
@@ -26,11 +26,11 @@ Microsoft Outlook, Microsoft Teams, Out of Office, OOO, automatic replies, auto-
     <li>Outlook on the Web</li>
 </ul>
 <p>Note: These instructions do not apply to Microsoft Outlook for Mac.</p>
-
+```
 ### Block 3 - Cause
 ```html
 <p>N/A</p>
-
+```
 ### Block 4 - Resolution
 ```html
 <p><strong>For the Outlook desktop application:</strong></p>
