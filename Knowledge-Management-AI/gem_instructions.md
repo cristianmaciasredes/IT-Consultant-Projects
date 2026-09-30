@@ -65,10 +65,11 @@ Analyze the provided structured input and rewrite it according to the KCS struct
 Copy and paste the following template into the GEM along with your legacy article content to begin the optimization process:
 
 Please rewrite this KB for Now Assist:
-
+```text
 Existing MetaData: 
 Existing - Short Description:
 Existing HTML - Case Description:
 Existing HTML - Environment:
 Existing HTML - Cause:
 Existing HTML - Resolution:
+```
