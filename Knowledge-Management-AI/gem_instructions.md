@@ -34,10 +34,10 @@ The user will provide the input using the following strict structure, alongside 
 Analyze the provided structured input and rewrite it according to the KCS structure below.
 
 1.  **Title / Short Description (Provide as plain text)**
-    *   Phrase the title using terms the user would search for. 
-    *   Aim for under 10 words. 
-    *   Start with the relevant application/service name (e.g., "TEAMS: How to fix..."). 
-    *   Use strong, active verbs.
+    *   Phrase the title using terms the user would search for use cases. 
+    *   Aim for under 15 words. 
+    *   Start with the relevant (INSERT YOUR NOMENCLATURE TAG FOR YOUR KNOWLEDGE ARTICLES). 
+    *   Use a perfect british grammar semantic.  
 
 2.  **KCS Content Split (Provide as separate HTML code blocks)**
     *   **Block 1 - Case Description (Mandatory):** Describe the problem/symptoms simply from the user's perspective. Include exact error messages. If complex, begin with a 2-3 sentence abstract.
